@@ -1,0 +1,110 @@
+.Header{
+    background-image: url(https://tinder.com/static/build/07eef8b101ca939c978a599f508aa955.webp);
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+.line{
+    width: 100px;
+    height: 110px;
+}
+.picture{
+    position: relative;
+    left: 0px;
+    height: 100px;
+    width: 170px;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+    margin: 0 0 -50% -20%;
+}
+.first{
+    position: absolute;
+    left: 170px;
+    top: 0px;
+    text-align: left;
+    color: wheat;
+    cursor: pointer;   
+    
+}
+.second{
+    position: absolute;
+    text-align: left;
+    left: 300px;
+    top: 0px;
+    color: wheat;
+    cursor: pointer;
+}
+.third{
+    text-align: left;
+    position: absolute;
+    left: 380px;
+    top: 7px;
+    color: wheat;
+    cursor: pointer;
+}
+.four{
+    text-align: left;
+    position: absolute;
+    left: 620px;
+    top: 0px;
+    color: wheat;
+    cursor: pointer;
+}
+.five{
+    text-align: left;
+    position: absolute;
+    left: 770px;
+    top: 0px;
+    color: wheat;
+    cursor: pointer;
+}
+.six{
+    text-align: left;
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    color: wheat;
+    cursor: pointer;
+}
+.but{
+    position: absolute;
+    left: 1350px;
+    top: 10px;
+    width: 130px;
+    height: 50px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.seven{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    line-height: 1.18;
+    font-size: 6vw;
+    font-weight: 800;
+    color: wheat;
+}
+.text:hover{
+    color: red;
+}
+.but2{
+    position: absolute;
+    top: 460px;
+    left: 650px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    background: linear-gradient(45deg,#fd267a,#ff6036);
+    color: white;
+}
