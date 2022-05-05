@@ -106,3 +106,65 @@ img {
   background: linear-gradient(45deg, #fd267a, #ff6036);
   color: white;
 }
+.but3{
+  position: absolute;
+  top: 560px;
+  left: 650px;
+  width: 250px;
+  height: 50px;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  background: linear-gradient(45deg, #fd267a, #ff6036);
+  color: white;
+}
+#div1{
+	position: absolute;
+	width: 600px;
+  height: 400px;
+  top: 200px;
+  left: 450px;
+  text-align: center;
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  background: black;
+  display: none;
+  z-index: 9;
+}
+.close{
+  position: absolute;
+  left: 270px;
+  top: 380px;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  background: linear-gradient(45deg, #fd267a, #ff6036);
+  
+}
+ul{
+  list-style-position: inside;
+  text-indent: -2em;
+  padding-left: 2em;
+}
+ul li img{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 150px;
+  left: 380px;
+  top: 200px;
+  position: absolute;
+}
+.new{
+  position: absolute;
+  left: 120px;
+  top: 380px;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  background: linear-gradient(45deg, #fd267a, #ff6036);
+}

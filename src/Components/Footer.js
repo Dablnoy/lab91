@@ -1,26 +1,10 @@
 import "./Footer.css";
+
+import New from "./New";
 function Footer() {
   return (
     <div className="Footer">
-      <div className="end">
-        <h3 align="left">ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ</h3>
-        <h5 align="left">Конфиденциальность</h5>
-        <h5 align="left">Условия</h5>
-        <h5 align="left">Политика в отношении файлов Cookie</h5>
-        <h5 align="left">Интеллектуальная Собственность</h5>
-      </div>
-      <div className="end2">
-        <h3 align="left">КАРЬЕРА</h3>
-        <h5 align="left">Карьера</h5>
-        <h5 align="left">Технический блог</h5>
-      </div>
-      <div className="end3">
-        <h5 align="left">Частые вопросы</h5>
-        <h5 align="left">Страны</h5>
-        <h5 align="left">Пресса</h5>
-        <h5 align="left">Контакты</h5>
-        <h5 align="left">Промокод</h5>
-      </div>
+     <New/>
       <hr></hr>
       <h1 align="left">СКАЧАЙТЕ ПРИЛОЖЕНИЯ!</h1>
       <h4 align="left">

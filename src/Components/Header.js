@@ -1,5 +1,18 @@
 import "./Header.css"
+import React from "react";
+import MyComponent from "./MyComponent";
 function Header(){
+
+  let addPost=()=>{
+    document.getElementById("div1").style.display = "block"
+    
+  }
+  let closePost=()=>{
+    document.getElementById("div1").style.display = "none"
+  }
+  
+  
+
     return(
         <div className="Header">
           <div className="line">
@@ -17,10 +30,17 @@ function Header(){
            <h2 className="text six">Русский</h2>
            <input className="but2" type="button" value="Создать аккаунт"/>
            <input className="but" type="button" value="Войдите"/>
+           <div>
+           <button className="but3" onClick={addPost}>Просмотреть профиля людей</button>
+           </div>
+           <div id="div1">
+            <MyComponent/>
+             <input type="button" class="close" value="close" onClick={closePost}/>
+    
+           </div>
            <h1 className="seven">Свайп вправа</h1>
            
           </div>
-          
         </div>
     );
 }

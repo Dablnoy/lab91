@@ -1,5 +1,5 @@
 import Div from "./Div";
-import s from "./Main.module.css";
+import MyComponent from "./MyComponent";
 function Main() {
   return (
     <div className="Main">
@@ -15,6 +15,7 @@ function Main() {
         name="Элисса Донахью"
         text="Когда я училась в университете, мы с соседкой по комнате любили посидеть в Тиндере. Мы не искали серьезных отношений или встреч на одну ночь,просто развлекались. Как думаете,где я встретила своего мужа"
       />
+     
     </div>
   );
 }
